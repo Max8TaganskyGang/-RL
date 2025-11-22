@@ -48,11 +48,11 @@ task2/results/**/*.pkl
 task3/results/**/*.pt
 task3/results/**/*.pkl
 
-# Videos (большие файлы)
-*.mp4
-task2/task2_videos/*.mp4
-task3/task3_videos/*.mp4
-task4/videos/*.mp4
+# Videos (раскомментируйте для исключения больших файлов)
+# *.mp4
+# task2/task2_videos/*.mp4
+# task3/task3_videos/*.mp4
+# task4/videos/*.mp4
 
 # Logs
 *.log
