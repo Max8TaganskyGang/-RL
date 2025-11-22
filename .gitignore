@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Wandb
+wandb/
+.wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (MNIST уже скачан)
+data/MNIST/raw/*.gz
+data/MNIST/raw/*.ubyte
+
+# Model checkpoints (большие файлы)
+*.pt
+*.pth
+*.ckpt
+*.pkl
+task2/results/**/*.pt
+task2/results/**/*.pkl
+task3/results/**/*.pt
+task3/results/**/*.pkl
+
+# Videos (большие файлы)
+*.mp4
+task2/task2_videos/*.mp4
+task3/task3_videos/*.mp4
+task4/videos/*.mp4
+
+# Logs
+*.log
+training_all.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
+
