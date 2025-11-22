@@ -1,0 +1,1437 @@
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run wahqllzh
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_191634-wahqllzh
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-no-lstm-env1
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/wahqllzh
+wandb: updating run metadata
+wandb: uploading history steps 0-509, summary, console lines 0-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 █▇▇▇▅▅▄▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▁▂▃▃▄▄▅▆▇▇▇▇▇▇▇▇▇▇▇████████████████████
+wandb:        episode ▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▆▇▇▇▇▇▇▇█
+wandb: episode_length ▄▄█▅▃▁▄▂▃▂▁▁▁▂▁▂▁▃▂▁▁▁▁▂▁▂▂▁▁▁▁▁▁▁▂▁▃▁▁▁
+wandb: episode_reward ▃▃▆▂▅▁▆▇▇▆▃█▆▆▅▆▅▃▆███▅▆▆███▇███▇█▅█▅███
+wandb:        epsilon █▇▇▇▇▇▆▆▆▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ████▁█▁▁▁▁
+wandb:    eval_reward ▁▁▁▁█▁████
+wandb:           loss █▂▄▅▄▅▄▅▂▃▂▂▂▁▂▁▁▁▁▁▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 11.9
+wandb: avg_reward_100 8.91
+wandb:        episode 500
+wandb: episode_length 17
+wandb: episode_reward 8.4
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 8
+wandb:    eval_reward 9.3
+wandb:           loss 0.01767
+wandb: 
+wandb: 🚀 View run dqn-no-lstm-env1 at: https://wandb.ai/maxsir195-yandex/RL2/runs/wahqllzh
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_191634-wahqllzh/logs
+
+============================================================
+Окружение 1
+============================================================
+Кратчайший путь: 8 шагов
+
+--- DQN ---
+Episode 10/500 | Avg Reward: -1.39 | Avg Length: 94.70 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: 1.11 | Avg Length: 79.85 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: 2.47 | Avg Length: 69.60 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: 3.58 | Avg Length: 60.20 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: 4.14 | Avg Length: 55.58 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: 4.56 | Avg Length: 52.07 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: 4.81 | Avg Length: 50.00 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: 5.12 | Avg Length: 47.31 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: 5.34 | Avg Length: 45.37 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: 5.55 | Avg Length: 43.45 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: 6.53 | Avg Length: 35.74 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: 7.04 | Avg Length: 30.64 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: 7.35 | Avg Length: 27.49 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: 7.48 | Avg Length: 26.23 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: 7.64 | Avg Length: 24.60 | Epsilon: 0.471
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: 7.79 | Avg Length: 23.11 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: 7.97 | Avg Length: 21.33 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: 8.12 | Avg Length: 19.76 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: 8.21 | Avg Length: 18.89 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: 8.28 | Avg Length: 18.17 | Epsilon: 0.367
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: 8.31 | Avg Length: 17.89 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: 8.31 | Avg Length: 17.94 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: 8.31 | Avg Length: 17.94 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: 8.33 | Avg Length: 17.70 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: 8.39 | Avg Length: 17.06 | Epsilon: 0.286
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+Episode 260/500 | Avg Reward: 8.46 | Avg Length: 16.41 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: 8.53 | Avg Length: 15.72 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: 8.55 | Avg Length: 15.53 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: 8.62 | Avg Length: 14.80 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: 8.67 | Avg Length: 14.32 | Epsilon: 0.222
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: 8.64 | Avg Length: 14.58 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: 8.67 | Avg Length: 14.27 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: 8.69 | Avg Length: 14.12 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: 8.74 | Avg Length: 13.64 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: 8.77 | Avg Length: 13.26 | Epsilon: 0.173
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+Episode 360/500 | Avg Reward: 8.81 | Avg Length: 12.92 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: 8.82 | Avg Length: 12.81 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: 8.79 | Avg Length: 13.05 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: 8.82 | Avg Length: 12.82 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: 8.84 | Avg Length: 12.64 | Epsilon: 0.135
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+Episode 410/500 | Avg Reward: 8.91 | Avg Length: 11.88 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: 8.89 | Avg Length: 12.05 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: 8.94 | Avg Length: 11.59 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: 8.91 | Avg Length: 11.94 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: 8.87 | Avg Length: 12.31 | Epsilon: 0.105
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+Episode 460/500 | Avg Reward: 8.87 | Avg Length: 12.33 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: 8.86 | Avg Length: 12.44 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: 8.86 | Avg Length: 12.44 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: 8.88 | Avg Length: 12.16 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: 8.91 | Avg Length: 11.90 | Epsilon: 0.082
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+
+============================================================
+Обучение завершено!
+=====================================================wandb: Cwandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run xroqpyih
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_191658-xroqpyih
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-no-lstm-env2
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/xwandb: uwandb: updating run metadata
+wandb: uploading history steps 457-509, summary, console lines 52-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▂▆▆▅▅▃▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▂▂▄▆▇▇███████
+wandb: avg_reward_100 ▄▃▃▅▅▇▇████████████▇▇▇▇▇▇▆▅▅▄▃▂▂▂▁▁▁▁▁▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▂▂▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇████
+wandb: episode_length ▆█▆▂▁▅▂▃▃▂▁▁▂▁▁▂▁▂▂▄▂▃▄▂▃▂▄▂▄▃▃▃▂███▂▂▅█
+wandb: episode_reward ▅▁█▆██▇███▇█▇▇▇████▇▇▇▇▇█▇▄▄▁▇▇▁▇▆█▇▁▁▁▁
+wandb:        epsilon ██▇▇▇▆▆▆▅▅▄▄▄▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁▁▁▁▁▁▁▁▁▁
+wandb:    eval_reward ▁▁▁▁▁▁▁▁▁▁
+wandb:           loss █▂▃▆▇▆▇▇█▆▄▇▆▅▆▄▄▅▅▄▃▄▃▃▄▄▃▃▃▂▂▂▁▂▂▁▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 145.93
+wandb: avg_reward_100 -9.139
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -20.0
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:           loss 0.2713
+wandb: 
+wandb: 🚀 View run dqn-no-lstm-env2 at: https://wandb.ai/maxsir195-yandex/RL2/runs/xroqpyih
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_191658-xroqpyih/logs
+
+============================================================
+Окружение 2
+============================================================
+Кратчайший путь: 8 шагов
+
+--- DQN ---
+Episode 10/500 | Avg Reward: -5.87 | Avg Length: 129.40 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: -1.97 | Avg Length: 100.50 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: -0.40 | Avg Length: 88.13 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: 1.54 | Avg Length: 73.00 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: 1.11 | Avg Length: 75.80 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: 2.07 | Avg Length: 68.55 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: 2.72 | Avg Length: 63.67 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: 3.17 | Avg Length: 60.51 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: 3.49 | Avg Length: 58.24 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: 3.74 | Avg Length: 56.53 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: 5.03 | Avg Length: 46.66 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: 5.38 | Avg Length: 44.17 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: 5.79 | Avg Length: 41.08 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: 5.66 | Avg Length: 42.38 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: 6.37 | Avg Length: 37.35 | Epsilon: 0.471
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: 6.33 | Avg Length: 37.67 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: 6.34 | Avg Length: 37.59 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: 6.30 | Avg Length: 37.96 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: 6.37 | Avg Length: 37.26 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: 6.46 | Avg Length: 36.37 | Epsilon: 0.367
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: 6.38 | Avg Length: 37.22 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: 6.53 | Avg Length: 35.66 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: 6.45 | Avg Length: 36.47 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: 6.52 | Avg Length: 35.85 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: 6.57 | Avg Length: 35.27 | Epsilon: 0.286
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: 6.54 | Avg Length: 35.62 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: 6.51 | Avg Length: 35.88 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: 6.47 | Avg Length: 36.27 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: 6.18 | Avg Length: 39.23 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: 5.90 | Avg Length: 42.05 | Epsilon: 0.222
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: 5.71 | Avg Length: 43.94 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: 5.44 | Avg Length: 46.61 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: 4.91 | Avg Length: 50.94 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: 4.64 | Avg Length: 53.63 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: 4.14 | Avg Length: 57.63 | Epsilon: 0.173
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: 2.86 | Avg Length: 67.31 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: 0.96 | Avg Length: 80.33 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: -0.35 | Avg Length: 88.35 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: -2.56 | Avg Length: 101.32 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: -4.21 | Avg Length: 111.75 | Epsilon: 0.135
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -5.08 | Avg Length: 118.48 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: -6.78 | Avg Length: 128.43 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: -7.50 | Avg Length: 133.61 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: -8.58 | Avg Length: 141.31 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: -9.56 | Avg Length: 148.08 | Epsilon: 0.105
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -9.61 | Avg Length: 147.59 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: -8.71 | Avg Length: 142.64 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: -9.25 | Avg Length: 147.05 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: -9.01 | Avg Length: 145.63 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: -9.14 | Avg Length: 145.93 | Epsilon: 0.082
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run ypldb959
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_191745-ypldb959
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-no-lstm-env3
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/ypldb959
+wandb: updating run metadata
+wandb: uploading history steps 464-509, summary, console lines 54-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 █▇▇▇▇▇▇▇▆▅▄▄▂▂▁▁▁▁▁▁▁▂▂▃▃▄▄▄▆▆▆▅▆▆▆▆▅▅▅▅
+wandb: avg_reward_100 ▂▂▁▁▁▁▁▂▂▄▅▅▆▆▇▇█████▇▆▆▆▆▅▅▅▄▄▄▄▄▄▅▅▅▆▅
+wandb:        episode ▁▁▁▁▁▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇███
+wandb: episode_length ▂███▂▇▃▃▃▄▂█▆▇▄▅▁█████▄▇███▅▅██▁███▅████
+wandb: episode_reward ▄▅▅▃▂▃▄▃▄▃▆▇▆█▄▅▅▆█▇▄▁█▇▇▄▅▆▅▅▅▇█▅▅▅▅█▂▇
+wandb:        epsilon ██▆▆▆▆▅▅▅▅▄▄▄▄▄▄▄▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁▁▁▁▁▁▁▁▁▁
+wandb:    eval_reward ██████▁█▁█
+wandb:           loss ▁▂▂▁▄▄▃▂▄▅▅▄▆█▅▃▅▆▆▅▄▅▄▄▄▄▃▄▄▃▃▄▅▅▄▃▄▃▄▃
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 172.66
+wandb: avg_reward_100 -27.222
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -47.9
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:           loss 0.66391
+wandb: 
+wandb: 🚀 View run dqn-no-lstm-env3 at: https://wandb.ai/maxsir195-yandex/RL2/runs/ypldb959
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_191745-ypldb959/logs
+
+============================================================
+Окружение 3
+============================================================
+Кратчайший путь: 18 шагов
+
+--- DQN ---
+Episode 10/500 | Avg Reward: -33.24 | Avg Length: 180.70 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: -33.60 | Avg Length: 185.05 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: -36.42 | Avg Length: 189.60 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: -35.50 | Avg Length: 185.95 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: -34.39 | Avg Length: 182.16 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: -32.91 | Avg Length: 178.07 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: -32.55 | Avg Length: 178.27 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: -31.44 | Avg Length: 173.53 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: -29.65 | Avg Length: 170.06 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: -28.36 | Avg Length: 167.71 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -26.33 | Avg Length: 161.55 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: -24.78 | Avg Length: 157.50 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: -22.16 | Avg Length: 152.70 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: -20.62 | Avg Length: 149.72 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: -19.71 | Avg Length: 145.97 | Epsilon: 0.471
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -18.67 | Avg Length: 143.11 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: -16.61 | Avg Length: 136.60 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: -15.37 | Avg Length: 134.89 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: -14.69 | Avg Length: 132.02 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: -14.71 | Avg Length: 130.85 | Epsilon: 0.367
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -15.09 | Avg Length: 132.70 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: -15.03 | Avg Length: 130.65 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: -16.52 | Avg Length: 133.72 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: -17.93 | Avg Length: 133.53 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: -18.30 | Avg Length: 134.87 | Epsilon: 0.286
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -19.23 | Avg Length: 137.22 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: -20.42 | Avg Length: 140.90 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: -20.77 | Avg Length: 142.15 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: -21.59 | Avg Length: 145.15 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: -22.61 | Avg Length: 150.19 | Epsilon: 0.222
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -23.60 | Avg Length: 155.88 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: -24.46 | Avg Length: 159.33 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: -24.24 | Avg Length: 156.88 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: -24.06 | Avg Length: 158.51 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: -24.40 | Avg Length: 162.71 | Epsilon: 0.173
+Evaluation | Avg Reward: -195.50 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -25.28 | Avg Length: 166.20 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: -26.08 | Avg Length: 171.08 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: -26.22 | Avg Length: 175.44 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: -25.52 | Avg Length: 173.50 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: -25.11 | Avg Length: 172.88 | Epsilon: 0.135
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -24.39 | Avg Length: 170.86 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: -24.25 | Avg Length: 174.57 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: -22.80 | Avg Length: 173.62 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: -22.71 | Avg Length: 174.55 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: -21.74 | Avg Length: 172.56 | Epsilon: 0.105
+Evaluation | Avg Reward: -189.20 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -23.07 | Avg Length: 168.05 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: -22.90 | Avg Length: 167.37 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: -23.82 | Avg Length: 167.47 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: -26.51 | Avg Length: 170.57 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: -27.22 | Avg Length: 172.66 | Epsilon: 0.082
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run efu4ix3h
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_191920-efu4ix3h
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-lstm-env1
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/efu4ix3h
+wandb: updating run metadata
+wandb: uploading history steps 318-509, summary, console lines 37-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 █▅▄▄▄▆▆▆▆▆▆▅▅▅▄▂▂▂▂▂▂▂▂▂▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▄▄▄▅▂▂▂▂▂▂▄▆▇▇▆▇▇▇▇▇▇▇▇████████████████
+wandb:        episode ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇████
+wandb: episode_length ▃▁██▃█▄▂▁▂▂▂▂▂▁▁▁▁▂▅▂▁▁▆▁▁▂▂▁▁▁▁▁▂▁▁▁▁▁▂
+wandb: episode_reward ▇▆▄▇█▇▁▇▁▇█▇▇▆▇▇████▇█▆▄▇▆█▇▇███████████
+wandb:        epsilon █▇▆▆▆▅▅▅▄▄▄▄▄▄▄▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ██▁▁▅▁▁▁▁▁
+wandb:    eval_reward ▁▁██▅█████
+wandb:           loss ▂█▃▂▁▁▁▂▂▁▃▁▁▁▃▂▁▁▁▂▁▂▁▁▂▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 10.9
+wandb: avg_reward_100 9.01
+wandb:        episode 500
+wandb: episode_length 8
+wandb: episode_reward 9.3
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 8
+wandb:    eval_reward 9.3
+wandb:           loss 0.00519
+wandb: 
+wandb: 🚀 View run dqn-lstm-env1 at: https://wandb.ai/maxsir195-yandex/RL2/runs/efu4ix3h
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_191920-efu4ix3h/logs
+
+============================================================
+Окружение 1
+============================================================
+Кратчайший путь: 8 шагов
+
+--- DQN с LSTM ---
+Episode 10/500 | Avg Reward: 0.59 | Avg Length: 85.00 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: 2.35 | Avg Length: 72.50 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: 3.08 | Avg Length: 66.80 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: 3.67 | Avg Length: 61.80 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: 3.45 | Avg Length: 64.48 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: 1.64 | Avg Length: 76.15 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: 0.03 | Avg Length: 84.80 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: -1.76 | Avg Length: 95.88 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: -3.59 | Avg Length: 106.64 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: -3.91 | Avg Length: 108.79 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -3.73 | Avg Length: 106.99 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: -3.40 | Avg Length: 103.71 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: -3.18 | Avg Length: 101.53 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: -3.12 | Avg Length: 100.87 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: -2.62 | Avg Length: 95.84 | Epsilon: 0.471
+Evaluation | Avg Reward: 9.29 | Avg Length: 8.10
+Episode 160/500 | Avg Reward: -1.12 | Avg Length: 84.90 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: 0.55 | Avg Length: 74.26 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: 2.74 | Avg Length: 59.43 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: 5.32 | Avg Length: 42.79 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: 6.77 | Avg Length: 32.28 | Epsilon: 0.367
+Evaluation | Avg Reward: 9.20 | Avg Length: 9.00
+Episode 210/500 | Avg Reward: 7.20 | Avg Length: 29.02 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: 7.12 | Avg Length: 29.82 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: 6.82 | Avg Length: 31.82 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: 6.87 | Avg Length: 31.32 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: 6.87 | Avg Length: 31.30 | Epsilon: 0.286
+Evaluation | Avg Reward: -5.35 | Avg Length: 104.00
+Episode 260/500 | Avg Reward: 6.68 | Avg Length: 33.23 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: 6.33 | Avg Length: 36.66 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: 6.03 | Avg Length: 39.70 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: 5.91 | Avg Length: 40.92 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: 5.83 | Avg Length: 41.70 | Epsilon: 0.222
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+Episode 310/500 | Avg Reward: 6.02 | Avg Length: 39.80 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: 6.20 | Avg Length: 38.01 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: 6.68 | Avg Length: 34.16 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: 6.92 | Avg Length: 31.76 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: 7.02 | Avg Length: 30.81 | Epsilon: 0.173
+Evaluation | Avg Reward: 9.10 | Avg Length: 10.00
+Episode 360/500 | Avg Reward: 7.35 | Avg Length: 27.54 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: 7.85 | Avg Length: 22.48 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: 8.31 | Avg Length: 17.92 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: 8.56 | Avg Length: 15.38 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: 8.75 | Avg Length: 13.51 | Epsilon: 0.135
+Evaluation | Avg Reward: 9.20 | Avg Length: 9.00
+Episode 410/500 | Avg Reward: 8.80 | Avg Length: 13.03 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: 8.86 | Avg Length: 12.39 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: 8.90 | Avg Length: 12.05 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: 8.91 | Avg Length: 11.90 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: 8.94 | Avg Length: 11.57 | Epsilon: 0.105
+Evaluation | Avg Reward: 9.20 | Avg Length: 9.00
+Episode 460/500 | Avg Reward: 8.96 | Avg Length: 11.43 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: 9.01 | Avg Length: 10.90 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: 9.00 | Avg Length: 10.97 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: 9.04 | Avg Length: 10.64 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: 9.01 | Avg Length: 10.90 | Epsilon: 0.082
+Evaluation | Avg Reward: 9.30 | Avg Length: 8.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run sjcw0eyc
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_192027-sjcw0eyc
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-lstm-env2
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/sjcw0eyc
+wandb: updating run metadata
+wandb: uploading history steps 480-509, summary, console lines 56-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▇▇▆▆▆▅▅▅▄▄▃▂▂▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▃▃▅▅▆▆▆▇▇▇██
+wandb: avg_reward_100 ▃▃▄▅▅▅▆▇▇▇█████▇█▇▇▇▇▇▇▇▇▇▇▇▇▆▄▄▃▃▃▃▁▂▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇████
+wandb: episode_length █▇▁▅▂▂▃▂▄▃▁▁▂▁▂▂▃█▂▃▁▃▂▃▂▃▃▁▃▂▁▂▁▃▅▄▁▁█▃
+wandb: episode_reward █▆█▇█▇██▇▇█▇▆▇█▆██▇▄█▇▄▇▆█▇▆█▇▇▆▅▇█▆█▇▁█
+wandb:        epsilon ██▇▆▆▆▅▅▄▄▄▄▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length █████▁████
+wandb:    eval_reward ▁▁▁▁▁█▁▁▁▁
+wandb:           loss ████▅▇▇█▅▄▆▆▆▄█▃▄▄▃▅▅▂▅▄▃▄▃▃▂▂▃▂▁▃▃▁▂▂▂▁
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 83.54
+wandb: avg_reward_100 0.635
+wandb:        episode 500
+wandb: episode_length 70
+wandb: episode_reward 3.1
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:           loss 0.24528
+wandb: 
+wandb: 🚀 View run dqn-lstm-env2 at: https://wandb.ai/maxsir195-yandex/RL2/runs/sjcw0eyc
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_192027-sjcw0eyc/logs
+
+============================================================
+Окружение 2
+============================================================
+Кратчайший путь: 8 шагов
+
+--- DQN с LSTM ---
+Episode 10/500 | Avg Reward: -1.07 | Avg Length: 101.60 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: 1.22 | Avg Length: 83.80 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: 2.14 | Avg Length: 76.27 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: 2.65 | Avg Length: 72.03 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: 2.73 | Avg Length: 69.62 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: 3.30 | Avg Length: 64.65 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: 3.59 | Avg Length: 62.21 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: 3.85 | Avg Length: 60.01 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: 4.08 | Avg Length: 57.97 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: 4.43 | Avg Length: 54.67 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: 5.06 | Avg Length: 49.39 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: 5.38 | Avg Length: 46.22 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: 5.58 | Avg Length: 44.17 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: 5.78 | Avg Length: 42.22 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: 6.00 | Avg Length: 40.96 | Epsilon: 0.471
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: 6.03 | Avg Length: 40.68 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: 6.26 | Avg Length: 38.42 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: 6.31 | Avg Length: 37.88 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: 6.31 | Avg Length: 37.88 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: 6.17 | Avg Length: 39.27 | Epsilon: 0.367
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: 5.94 | Avg Length: 41.64 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: 5.91 | Avg Length: 41.95 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: 5.90 | Avg Length: 42.02 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: 5.81 | Avg Length: 42.87 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: 5.72 | Avg Length: 43.80 | Epsilon: 0.286
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: 5.75 | Avg Length: 43.53 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: 5.51 | Avg Length: 45.90 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: 5.45 | Avg Length: 46.50 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: 5.32 | Avg Length: 47.84 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: 5.03 | Avg Length: 50.75 | Epsilon: 0.222
+Evaluation | Avg Reward: 9.10 | Avg Length: 10.00
+Episode 310/500 | Avg Reward: 5.14 | Avg Length: 49.58 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: 5.14 | Avg Length: 49.65 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: 5.15 | Avg Length: 49.48 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: 5.15 | Avg Length: 49.53 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: 5.18 | Avg Length: 49.18 | Epsilon: 0.173
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: 4.91 | Avg Length: 51.92 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: 4.78 | Avg Length: 53.23 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: 3.83 | Avg Length: 59.72 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: 3.27 | Avg Length: 64.23 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: 3.06 | Avg Length: 65.38 | Epsilon: 0.135
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: 2.78 | Avg Length: 68.14 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: 2.68 | Avg Length: 69.13 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: 2.25 | Avg Length: 72.40 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: 1.74 | Avg Length: 76.55 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: 1.68 | Avg Length: 77.13 | Epsilon: 0.105
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: 0.86 | Avg Length: 82.32 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: 0.25 | Avg Length: 86.40 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: 0.42 | Avg Length: 84.66 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: 0.50 | Avg Length: 83.88 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: 0.64 | Avg Length: 83.54 | Epsilon: 0.082
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run wulgnnri
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_192222-wulgnnri
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dqn-lstm-env3
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/wulgnnri
+wandb: uploading history steps 483-508, console lines 56-58; updating run metadata
+wandb: uploading history steps 509-509, summary, console lines 59-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▅▆▅▃▁▁▂▁▂▂▃▄▅▆▇▇▇▇█████████████▇▅▅▃▂▂▂▂▄
+wandb: avg_reward_100 ▁▄▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▅▆▇▇▇▇███▇▇▇▇▇▇██▇▇▇▇▇
+wandb:        episode ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▄▄▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇██
+wandb: episode_length ███▇████▁█▅███████████▇████████▃████████
+wandb: episode_reward ▄▅▅▄▃▄▇▃▅▅▇▄▅▂▅▅▅▄▄▅▅▄▅▅▄▅▅▅▅▄▅█▇▆▄▅▁▂▅▅
+wandb:        epsilon ██▇▇▇▆▆▆▆▅▅▅▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁▁▁▁▁▁▁▁▁▁
+wandb:    eval_reward ▁▁▁▁▁▁▁▁▁▁
+wandb:           loss ▁▂▄█▄▅▆▃▃▃▅▃▃▃▃▃▂▁▂▂▄▃▂▃▂▃▃▂▂▂▂▂▄▃▆▅█▆▃▂
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 186.87
+wandb: avg_reward_100 -27.231
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -27.2
+wandb:        epsilon 0.08157
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:           loss 0.20117
+wandb: 
+wandb: 🚀 View run dqn-lstm-env3 at: https://wandb.ai/maxsir195-yandex/RL2/runs/wulgnnri
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_192222-wulgnnri/logs
+
+============================================================
+Окружение 3
+============================================================
+Кратчайший путь: 18 шагов
+
+--- DQN с LSTM ---
+Episode 10/500 | Avg Reward: -34.87 | Avg Length: 190.70 | Epsilon: 0.951
+Episode 20/500 | Avg Reward: -35.81 | Avg Length: 191.10 | Epsilon: 0.905
+Episode 30/500 | Avg Reward: -32.84 | Avg Length: 177.30 | Epsilon: 0.860
+Episode 40/500 | Avg Reward: -33.15 | Avg Length: 178.03 | Epsilon: 0.818
+Episode 50/500 | Avg Reward: -32.84 | Avg Length: 179.78 | Epsilon: 0.778
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: -32.69 | Avg Length: 178.85 | Epsilon: 0.740
+Episode 70/500 | Avg Reward: -32.71 | Avg Length: 179.20 | Epsilon: 0.704
+Episode 80/500 | Avg Reward: -32.00 | Avg Length: 177.22 | Epsilon: 0.670
+Episode 90/500 | Avg Reward: -32.45 | Avg Length: 179.22 | Epsilon: 0.637
+Episode 100/500 | Avg Reward: -32.42 | Avg Length: 181.30 | Epsilon: 0.606
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -32.46 | Avg Length: 182.23 | Epsilon: 0.576
+Episode 120/500 | Avg Reward: -31.99 | Avg Length: 182.26 | Epsilon: 0.548
+Episode 130/500 | Avg Reward: -32.54 | Avg Length: 187.25 | Epsilon: 0.521
+Episode 140/500 | Avg Reward: -32.27 | Avg Length: 188.17 | Epsilon: 0.496
+Episode 150/500 | Avg Reward: -32.52 | Avg Length: 189.49 | Epsilon: 0.471
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -32.35 | Avg Length: 192.07 | Epsilon: 0.448
+Episode 170/500 | Avg Reward: -32.40 | Avg Length: 193.94 | Epsilon: 0.427
+Episode 180/500 | Avg Reward: -33.10 | Avg Length: 197.60 | Epsilon: 0.406
+Episode 190/500 | Avg Reward: -32.62 | Avg Length: 197.76 | Epsilon: 0.386
+Episode 200/500 | Avg Reward: -32.53 | Avg Length: 197.61 | Epsilon: 0.367
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -32.06 | Avg Length: 197.30 | Epsilon: 0.349
+Episode 220/500 | Avg Reward: -31.86 | Avg Length: 197.85 | Epsilon: 0.332
+Episode 230/500 | Avg Reward: -31.41 | Avg Length: 197.77 | Epsilon: 0.316
+Episode 240/500 | Avg Reward: -31.03 | Avg Length: 198.83 | Epsilon: 0.300
+Episode 250/500 | Avg Reward: -30.47 | Avg Length: 198.83 | Epsilon: 0.286
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -30.11 | Avg Length: 198.83 | Epsilon: 0.272
+Episode 270/500 | Avg Reward: -29.43 | Avg Length: 198.20 | Epsilon: 0.258
+Episode 280/500 | Avg Reward: -28.52 | Avg Length: 197.94 | Epsilon: 0.246
+Episode 290/500 | Avg Reward: -27.88 | Avg Length: 198.26 | Epsilon: 0.234
+Episode 300/500 | Avg Reward: -27.29 | Avg Length: 198.41 | Epsilon: 0.222
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -26.85 | Avg Length: 198.72 | Epsilon: 0.211
+Episode 320/500 | Avg Reward: -26.32 | Avg Length: 198.99 | Epsilon: 0.201
+Episode 330/500 | Avg Reward: -25.91 | Avg Length: 199.11 | Epsilon: 0.191
+Episode 340/500 | Avg Reward: -26.05 | Avg Length: 199.11 | Epsilon: 0.182
+Episode 350/500 | Avg Reward: -26.13 | Avg Length: 199.11 | Epsilon: 0.173
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -26.67 | Avg Length: 199.11 | Epsilon: 0.165
+Episode 370/500 | Avg Reward: -26.71 | Avg Length: 199.74 | Epsilon: 0.157
+Episode 380/500 | Avg Reward: -26.90 | Avg Length: 198.54 | Epsilon: 0.149
+Episode 390/500 | Avg Reward: -26.52 | Avg Length: 196.06 | Epsilon: 0.142
+Episode 400/500 | Avg Reward: -26.54 | Avg Length: 194.50 | Epsilon: 0.135
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -25.70 | Avg Length: 188.59 | Epsilon: 0.128
+Episode 420/500 | Avg Reward: -25.59 | Avg Length: 185.91 | Epsilon: 0.122
+Episode 430/500 | Avg Reward: -27.17 | Avg Length: 184.04 | Epsilon: 0.116
+Episode 440/500 | Avg Reward: -26.45 | Avg Length: 183.33 | Epsilon: 0.110
+Episode 450/500 | Avg Reward: -27.08 | Avg Length: 182.33 | Epsilon: 0.105
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -26.50 | Avg Length: 181.37 | Epsilon: 0.100
+Episode 470/500 | Avg Reward: -26.57 | Avg Length: 181.37 | Epsilon: 0.095
+Episode 480/500 | Avg Reward: -26.55 | Avg Length: 182.83 | Epsilon: 0.090
+Episode 490/500 | Avg Reward: -27.49 | Avg Length: 185.31 | Epsilon: 0.086
+Episode 500/500 | Avg Reward: -27.23 | Avg Length: 186.87 | Epsilon: 0.082
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run gsayzd4t
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_192709-gsayzd4t
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ppo-no-lstm-env1
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/gsayzd4t
+wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 0-548, summary, console lines 0-6wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 242-657, summary, console lines 14-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ███████████▅▅▄▄▃▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▁▁▁▁▁▁▁▁▂▃▃▄▄▄▅▆▇██████████████████████
+wandb:        entropy █▇▅███▆▆▅▅▄▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▆▅▅▄▄▄
+wandb:        episode ▁▁▂▂▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇█
+wandb: episode_length ███████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: episode_reward ▁▁▁▁▁▁▁▁▁▁██████████████████████████████
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ██▁▁▁▁▁▁▁▁
+wandb:    eval_reward ▁▁████████
+wandb:    policy_loss ▄▄▄▅▁▂▅▄▅▃▁▆█▅▄▅▆▂▆▃▃▄▄▄▂▆▄▃▄▄▆▂▄▄▄▄▄▄█▅
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 9.2
+wandb: avg_reward_100 9.18
+wandb:        entropy 0.44575
+wandb:        episode 502
+wandb: episode_length 8
+wandb: episode_reward 9.3
+wandb:   eval_episode 500
+wandb:    eval_length 9
+wandb:    eval_reward 9.2
+wandb:    policy_loss -0.04533
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-no-lstm-env1 at: https://wandb.ai/maxsir195-yandex/RL2/runs/fj3iyuk5
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_192649-fj3iyuk5/logs
+
+============================================================
+Окружение 1
+============================================================
+Кратчайший путь: 8 шагов
+
+--- PPO ---
+Episode 10/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 20/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 30/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 40/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 50/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 70/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 80/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 90/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 100/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 120/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 130/500 | Avg Reward: -18.94 | Avg Length: 193.46
+Episode 140/500 | Avg Reward: -16.20 | Avg Length: 176.10
+Episode 150/500 | Avg Reward: -13.29 | Avg Length: 157.09
+Evaluation | Avg Reward: 8.89 | Avg Length: 12.10
+Episode 160/500 | Avg Reward: -10.38 | Avg Length: 138.09
+Episode 170/500 | Avg Reward: -7.47 | Avg Length: 119.14
+Episode 180/500 | Avg Reward: -4.56 | Avg Length: 100.09
+Episode 190/500 | Avg Reward: -1.64 | Avg Length: 81.06
+Episode 200/500 | Avg Reward: 1.27 | Avg Length: 62.06
+Evaluation | Avg Reward: 9.06 | Avg Length: 10.40
+Episode 210/500 | Avg Reward: 4.19 | Avg Length: 42.97
+Episode 220/500 | Avg Reward: 7.11 | Avg Length: 23.84
+Episode 230/500 | Avg Reward: 8.96 | Avg Length: 11.35
+Episode 240/500 | Avg Reward: 9.13 | Avg Length: 9.68
+Episode 250/500 | Avg Reward: 9.14 | Avg Length: 9.56
+Evaluation | Avg Reward: 9.21 | Avg Length: 8.90
+Episode 260/500 | Avg Reward: 9.13 | Avg Length: 9.72
+Episode 270/500 | Avg Reward: 9.13 | Avg Length: 9.71
+Episode 280/500 | Avg Reward: 9.13 | Avg Length: 9.67
+Episode 290/500 | Avg Reward: 9.14 | Avg Length: 9.64
+Episode 300/500 | Avg Reward: 9.14 | Avg Length: 9.59
+Evaluation | Avg Reward: 9.19 | Avg Length: 9.10
+Episode 310/500 | Avg Reward: 9.13 | Avg Length: 9.66
+Episode 320/500 | Avg Reward: 9.12 | Avg Length: 9.76
+Episode 330/500 | Avg Reward: 9.13 | Avg Length: 9.70
+Episode 340/500 | Avg Reward: 9.13 | Avg Length: 9.65
+Episode 350/500 | Avg Reward: 9.13 | Avg Length: 9.72
+Evaluation | Avg Reward: 9.16 | Avg Length: 9.40
+Episode 360/500 | Avg Reward: 9.16 | Avg Length: 9.41
+Episode 370/500 | Avg Reward: 9.18 | Avg Length: 9.23
+Episode 380/500 | Avg Reward: 9.17 | Avg Length: 9.33
+Episode 390/500 | Avg Reward: 9.17 | Avg Length: 9.29
+Episode 400/500 | Avg Reward: 9.18 | Avg Length: 9.24
+Evaluation | Avg Reward: 9.23 | Avg Length: 8.70
+Episode 410/500 | Avg Reward: 9.18 | Avg Length: 9.17
+Episode 420/500 | Avg Reward: 9.18 | Avg Length: 9.17
+Episode 430/500 | Avg Reward: 9.18 | Avg Length: 9.18
+Episode 440/500 | Avg Reward: 9.18 | Avg Length: 9.18
+Episode 450/500 | Avg Reward: 9.18 | Avg Length: 9.23
+Evaluation | Avg Reward: 8.89 | Avg Length: 12.10
+Episode 460/500 | Avg Reward: 9.16 | Avg Length: 9.36
+Episode 470/500 | Avg Reward: 9.16 | Avg Length: 9.38
+Episode 480/500 | Avg Reward: 9.18 | Avg Length: 9.24
+Episode 490/500 | Avg Reward: 9.18 | Avg Length: 9.18
+Episode 500/500 | Avg Reward: 9.18 | Avg Length: 9.23
+Evaluation | Avg Reward: 9.20 | Avg Length: 9.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run wesb3b67
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_192801-wesb3b67
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ppo-no-lstm-env2
+wandb: ⭐️ View projewandb: uploading history steps 0-549, summary, console lines 0-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 █�wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 0-552, summary, console lines 0-60
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 █▄▄▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▂▃▄▄▅▆▆▆▇▇▇▇▇██████████████████████████
+wandb:        entropy ████▇▆▅▅▄▄▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇█
+wandb: episode_length ▄▅█▄▂▂▂▁▂▂▂▂▂▂▂▁▂▁▁▁▂▁▂▁▂▂▂▁▁▂▁▁▂▂▁▂▂▁▁▁
+wandb: episode_reward ▁▆▇█▅▇███▇████████████▇█████▇█████████▇█
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length █▃▂▄▃▅▅▄▄▁
+wandb:    eval_reward ▁▆▇▅▆▄▄▅▅█
+wandb:    policy_loss ▅▄▆▃▅▇▄▆▄▃▄▇▂▄▅▃▄▄▃▄▄▅▂▅▁▃▅█▄▄▄▄▂
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 10.02
+wandb: avg_reward_100 9.098
+wandb:        entropy 0.70263
+wandb:        episode 510
+wandb: episode_length 8
+wandb: episode_reward 9.3
+wandb:   eval_episode 500
+wandb:    eval_length 8.9
+wandb:    eval_reward 9.21
+wandb:    policy_loss -0.05021
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-no-lstm-env2 at: https://wandb.ai/maxsir195-yandex/RL2/runs/wesb3b67
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_192801-wesb3b67/logs
+
+============================================================
+Окружение 2
+============================================================
+Кратчайший путь: 8 шагов
+
+--- PPO ---
+Episode 10/500 | Avg Reward: 5.08 | Avg Length: 50.20
+Episode 20/500 | Avg Reward: 6.60 | Avg Length: 35.00
+Episode 30/500 | Avg Reward: 7.22 | Avg Length: 28.83
+Episode 40/500 | Avg Reward: 7.47 | Avg Length: 26.30
+Episode 50/500 | Avg Reward: 7.68 | Avg Length: 24.20
+Evaluation | Avg Reward: 8.72 | Avg Length: 13.80
+Episode 60/500 | Avg Reward: 7.88 | Avg Length: 22.22
+Episode 70/500 | Avg Reward: 8.00 | Avg Length: 20.96
+Episode 80/500 | Avg Reward: 8.13 | Avg Length: 19.70
+Episode 90/500 | Avg Reward: 8.22 | Avg Length: 18.77
+Episode 100/500 | Avg Reward: 8.30 | Avg Length: 18.03
+Evaluation | Avg Reward: 9.05 | Avg Length: 10.50
+Episode 110/500 | Avg Reward: 8.69 | Avg Length: 14.13
+Episode 120/500 | Avg Reward: 8.75 | Avg Length: 13.50
+Episode 130/500 | Avg Reward: 8.80 | Avg Length: 12.98
+Episode 140/500 | Avg Reward: 8.87 | Avg Length: 12.33
+Episode 150/500 | Avg Reward: 8.92 | Avg Length: 11.82
+Evaluation | Avg Reward: 9.11 | Avg Length: 9.90
+Episode 160/500 | Avg Reward: 8.95 | Avg Length: 11.53
+Episode 170/500 | Avg Reward: 8.99 | Avg Length: 11.12
+Episode 180/500 | Avg Reward: 8.99 | Avg Length: 11.13
+Episode 190/500 | Avg Reward: 8.99 | Avg Length: 11.06
+Episode 200/500 | Avg Reward: 9.01 | Avg Length: 10.94
+Evaluation | Avg Reward: 9.00 | Avg Length: 11.00
+Episode 210/500 | Avg Reward: 9.02 | Avg Length: 10.76
+Episode 220/500 | Avg Reward: 9.05 | Avg Length: 10.48
+Episode 230/500 | Avg Reward: 9.06 | Avg Length: 10.38
+Episode 240/500 | Avg Reward: 9.07 | Avg Length: 10.34
+Episode 250/500 | Avg Reward: 9.06 | Avg Length: 10.35
+Evaluation | Avg Reward: 9.08 | Avg Length: 10.20
+Episode 260/500 | Avg Reward: 9.07 | Avg Length: 10.32
+Episode 270/500 | Avg Reward: 9.06 | Avg Length: 10.37
+Episode 280/500 | Avg Reward: 9.06 | Avg Length: 10.35
+Episode 290/500 | Avg Reward: 9.08 | Avg Length: 10.24
+Episode 300/500 | Avg Reward: 9.07 | Avg Length: 10.29
+Evaluation | Avg Reward: 8.91 | Avg Length: 11.90
+Episode 310/500 | Avg Reward: 9.05 | Avg Length: 10.48
+Episode 320/500 | Avg Reward: 9.05 | Avg Length: 10.46
+Episode 330/500 | Avg Reward: 9.07 | Avg Length: 10.28
+Episode 340/500 | Avg Reward: 9.08 | Avg Length: 10.21
+Episode 350/500 | Avg Reward: 9.08 | Avg Length: 10.16
+Evaluation | Avg Reward: 8.96 | Avg Length: 11.40
+Episode 360/500 | Avg Reward: 9.06 | Avg Length: 10.35
+Episode 370/500 | Avg Reward: 9.06 | Avg Length: 10.42
+Episode 380/500 | Avg Reward: 9.07 | Avg Length: 10.31
+Episode 390/500 | Avg Reward: 9.05 | Avg Length: 10.52
+Episode 400/500 | Avg Reward: 9.06 | Avg Length: 10.43
+Evaluation | Avg Reward: 8.98 | Avg Length: 11.20
+Episode 410/500 | Avg Reward: 9.07 | Avg Length: 10.34
+Episode 420/500 | Avg Reward: 9.07 | Avg Length: 10.33
+Episode 430/500 | Avg Reward: 9.05 | Avg Length: 10.51
+Episode 440/500 | Avg Reward: 9.06 | Avg Length: 10.44
+Episode 450/500 | Avg Reward: 9.06 | Avg Length: 10.44
+Evaluation | Avg Reward: 9.02 | Avg Length: 10.80
+Episode 460/500 | Avg Reward: 9.07 | Avg Length: 10.30
+Episode 470/500 | Avg Reward: 9.08 | Avg Length: 10.16
+Episode 480/500 | Avg Reward: 9.09 | Avg Length: 10.08
+Episode 490/500 | Avg Reward: 9.11 | Avg Length: 9.93
+Episode 500/500 | Avg Reward: 9.10 | Avg Length: 9.98
+Evaluation | Avg Reward: 9.21 | Avg Length: 8.90
+Episode 510/500 | Avg Reward: 9.10 | Avg Length: 10.02
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run znkndw6h
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_192832-znkndwandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 987-1009, summary, console lines 57-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▄▅▆▇▇▇█████████████████████████████████
+wandb:        entropy ▆███▇▄▃▃▂▃▃▃▂▂▁▂▃▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁
+wandb:        episode ▁▁▂▂▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇████
+wandb: episode_length ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: episode_reward ▁▆█▇▇▇██████████████████████████████████
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁▁▁▁▁▁▁▁▁▁
+wandb:    eval_reward ▁▁▁▁▁▁▁▁▁▁
+wandb:    policy_loss ▄▅▆█▄▅▄▃▃▃▆▄▃▅▆▁▆▄▅▇▆▄▅▆▄▇▂▄▇▆▄▃▅▄▃▆▅▄▅▅
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 200
+wandb: avg_reward_100 -20.0
+wandb:        entropy 0.04593
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -20.0
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:    policy_loss 0.00953
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-no-lstm-env3 at: https://wandb.ai/maxsir195-yandex/RL2/runs/05yxwsq3
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_192821-05yxwsq3/logs
+
+============================================================
+Окружение 3
+============================================================
+Кратчайший путь: 18 шагов
+
+--- PPO ---
+Episode 10/500 | Avg Reward: -25.94 | Avg Length: 200.00
+Episode 20/500 | Avg Reward: -23.33 | Avg Length: 200.00
+Episode 30/500 | Avg Reward: -22.37 | Avg Length: 200.00
+Episode 40/500 | Avg Reward: -21.82 | Avg Length: 200.00
+Episode 50/500 | Avg Reward: -21.49 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: -21.25 | Avg Length: 200.00
+Episode 70/500 | Avg Reward: -21.07 | Avg Length: 200.00
+Episode 80/500 | Avg Reward: -20.93 | Avg Length: 200.00
+Episode 90/500 | Avg Reward: -20.83 | Avg Length: 200.00
+Episode 100/500 | Avg Reward: -20.75 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -20.15 | Avg Length: 200.00
+Episode 120/500 | Avg Reward: -20.08 | Avg Length: 200.00
+Episode 130/500 | Avg Reward: -20.04 | Avg Length: 200.00
+Episode 140/500 | Avg Reward: -20.02 | Avg Length: 200.00
+Episode 150/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 170/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 180/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 190/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 200/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 220/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 230/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 240/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 250/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 270/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 280/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 290/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 300/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 320/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 330/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 340/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 350/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 370/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 380/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 390/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 400/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 420/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 430/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 440/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 450/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 470/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 480/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 490/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 500/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run 2yl1ndlj
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_193111-2yl1ndlj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ppo-lstm-env1
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/2yl1ndlj
+wandb: updating run metadata
+wandb: uploading history steps 919-937, summary, console lines 58-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▂▁▁▁▁▂▂▃▃▄▅▆▆▇██████████████████████████
+wandb: avg_reward_100 ▇████████▇▆▅▃▃▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        entropy █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▂▃▃▃▄▄▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇████
+wandb: episode_length ▁▁▁█████████████████████████████████████
+wandb: episode_reward ▅██▇▇████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁█████████
+wandb:    eval_reward █▁▁▁▁▁▁▁▁▁
+wandb:    policy_loss ▅▄▄▂▁▂▂▃▄▄▂▄█▂▅▅▂▁▄▄▃▄▆▂▂▆▂▂▄▃▃▆▃▃▄▂▃▆▂▅
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 200
+wandb: avg_reward_100 -20.0
+wandb:        entropy 0.0
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -20.0
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:    policy_loss 0.01784
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-lstm-env1 at: https://wandb.ai/maxsir195-yandex/RL2/runs/2yl1ndlj
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_193111-2yl1ndlj/logs
+
+============================================================
+Окружение 1
+============================================================
+Кратчайший путь: 8 шагов
+
+--- PPO с LSTM ---
+Episode 10/500 | Avg Reward: 5.28 | Avg Length: 48.20
+Episode 20/500 | Avg Reward: 6.23 | Avg Length: 38.70
+Episode 30/500 | Avg Reward: 6.91 | Avg Length: 31.90
+Episode 40/500 | Avg Reward: 7.44 | Avg Length: 26.65
+Episode 50/500 | Avg Reward: 7.76 | Avg Length: 23.36
+Evaluation | Avg Reward: 8.90 | Avg Length: 12.00
+Episode 60/500 | Avg Reward: 7.96 | Avg Length: 21.43
+Episode 70/500 | Avg Reward: 8.09 | Avg Length: 20.10
+Episode 80/500 | Avg Reward: 8.08 | Avg Length: 20.24
+Episode 90/500 | Avg Reward: 5.43 | Avg Length: 37.74
+Episode 100/500 | Avg Reward: 2.88 | Avg Length: 53.97
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: 0.36 | Avg Length: 69.15
+Episode 120/500 | Avg Reward: -2.36 | Avg Length: 86.23
+Episode 130/500 | Avg Reward: -5.19 | Avg Length: 104.40
+Episode 140/500 | Avg Reward: -8.09 | Avg Length: 123.31
+Episode 150/500 | Avg Reward: -11.00 | Avg Length: 142.29
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -13.89 | Avg Length: 161.11
+Episode 170/500 | Avg Reward: -16.78 | Avg Length: 179.90
+Episode 180/500 | Avg Reward: -19.58 | Avg Length: 197.78
+Episode 190/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 200/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 220/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 230/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 240/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 250/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 270/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 280/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 290/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 300/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 320/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 330/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 340/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 350/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 370/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 380/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 390/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 400/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 420/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 430/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 440/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 450/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 470/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 480/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 490/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 500/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run dwwsdef2
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_193501-dwwsdef2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ppo-lstm-env2
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/dwwsdef2
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▃▁▁▁▁▁▁▂▂▃▃▄▄▄▅▆▆▇▇█████████████████████
+wandb: avg_reward_100 █████▇▅▅▄▄▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        entropy █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇██
+wandb: episode_length ▃▃▁▁▁▁▁▂████████████████████████████████
+wandb: episode_reward ▇████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁█████████
+wandb:    eval_reward █▁▁▁▁▁▁▁▁▁
+wandb:    policy_loss ▃▅▄▅▅▂▆▂▅▅▇▅▆▄▇▆▅▃▅▅▆▂▃▄▁▄▄█▁▇▅▆▂▃▂▄▄▇█▅
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 200
+wandb: avg_reward_100 -20.0
+wandb:        entropy 0.0
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -20.0
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:    policy_loss 0.00868
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-lstm-env2 at: https://wandb.ai/maxsir195-yandex/RL2/runs/dwwsdef2
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_193501-dwwsdef2/logs
+
+============================================================
+Окружение 2
+============================================================
+Кратчайший путь: 8 шагов
+
+--- PPO с LSTM ---
+Episode 10/500 | Avg Reward: 5.65 | Avg Length: 44.50
+Episode 20/500 | Avg Reward: 6.58 | Avg Length: 35.20
+Episode 30/500 | Avg Reward: 7.14 | Avg Length: 29.63
+Episode 40/500 | Avg Reward: 7.55 | Avg Length: 25.55
+Episode 50/500 | Avg Reward: 7.83 | Avg Length: 22.66
+Evaluation | Avg Reward: 9.00 | Avg Length: 11.00
+Episode 60/500 | Avg Reward: 8.03 | Avg Length: 20.72
+Episode 70/500 | Avg Reward: 8.17 | Avg Length: 19.30
+Episode 80/500 | Avg Reward: 8.24 | Avg Length: 18.64
+Episode 90/500 | Avg Reward: 7.43 | Avg Length: 24.47
+Episode 100/500 | Avg Reward: 4.69 | Avg Length: 42.02
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: 2.12 | Avg Length: 57.57
+Episode 120/500 | Avg Reward: -0.63 | Avg Length: 74.98
+Episode 130/500 | Avg Reward: -3.46 | Avg Length: 93.13
+Episode 140/500 | Avg Reward: -6.33 | Avg Length: 111.80
+Episode 150/500 | Avg Reward: -9.23 | Avg Length: 130.69
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -12.13 | Avg Length: 149.59
+Episode 170/500 | Avg Reward: -15.03 | Avg Length: 168.51
+Episode 180/500 | Avg Reward: -17.90 | Avg Length: 187.11
+Episode 190/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 200/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 220/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 230/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 240/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 250/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 270/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 280/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 290/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 300/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 320/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 330/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 340/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 350/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 370/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 380/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 390/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 400/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 420/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 430/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 440/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 450/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 470/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 480/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 490/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 500/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+wandb: Currently logged in as: maxsir195 (maxsir195-yandex) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: setting up run eaoroaxc
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /Users/makssinitskiy/Desktop/новый/wandb/run-20251121_194026-eaoroaxc
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ppo-lstm-env3
+wandb: ⭐️ View project at https://wandb.ai/maxsir195-yandex/RL2
+wandb: 🚀 View run at https://wandb.ai/maxsir195-yandex/RL2/runs/eaoroaxc
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 1008-1009, summary, console lines 59-59
+wandb: 
+wandb: Run history:
+wandb: avg_length_100 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: avg_reward_100 ▁▆▆▇▇▇▇▇████████████████████████████████
+wandb:        entropy █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        episode ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇▇█████
+wandb: episode_length ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: episode_reward ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_episode ▁▂▃▃▄▅▆▆▇█
+wandb:    eval_length ▁▁▁▁▁▁▁▁▁▁
+wandb:    eval_reward ▁▁▁▁▁▁▁▁▁▁
+wandb:    policy_loss ▇█▄▅▆▅▄▇▅█▇▇▇▇▇▁▄▇▇▄▅▆▅▆█▅▄▇▆▅▇█▆▅▄▇▄▃▅▅
+wandb:             +4 ...
+wandb: 
+wandb: Run summary:
+wandb: avg_length_100 200
+wandb: avg_reward_100 -20.0
+wandb:        entropy 0.0
+wandb:        episode 500
+wandb: episode_length 200
+wandb: episode_reward -20.0
+wandb:   eval_episode 500
+wandb:    eval_length 200
+wandb:    eval_reward -20.0
+wandb:    policy_loss 0.00807
+wandb:             +4 ...
+wandb: 
+wandb: 🚀 View run ppo-lstm-env3 at: https://wandb.ai/maxsir195-yandex/RL2/runs/eaoroaxc
+wandb: ⭐️ View project at: https://wandb.ai/maxsir195-yandex/RL2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251121_194026-eaoroaxc/logs
+
+============================================================
+Окружение 3
+============================================================
+Кратчайший путь: 18 шагов
+
+--- PPO с LSTM ---
+Episode 10/500 | Avg Reward: -30.17 | Avg Length: 200.00
+Episode 20/500 | Avg Reward: -25.09 | Avg Length: 200.00
+Episode 30/500 | Avg Reward: -23.39 | Avg Length: 200.00
+Episode 40/500 | Avg Reward: -22.54 | Avg Length: 200.00
+Episode 50/500 | Avg Reward: -22.03 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 60/500 | Avg Reward: -21.70 | Avg Length: 200.00
+Episode 70/500 | Avg Reward: -21.45 | Avg Length: 200.00
+Episode 80/500 | Avg Reward: -21.27 | Avg Length: 200.00
+Episode 90/500 | Avg Reward: -21.13 | Avg Length: 200.00
+Episode 100/500 | Avg Reward: -21.02 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 110/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 120/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 130/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 140/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 150/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 160/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 170/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 180/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 190/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 200/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 210/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 220/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 230/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 240/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 250/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 260/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 270/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 280/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 290/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 300/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 310/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 320/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 330/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 340/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 350/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 360/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 370/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 380/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 390/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 400/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 410/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 420/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 430/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 440/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 450/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 460/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 470/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 480/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 490/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Episode 500/500 | Avg Reward: -20.00 | Avg Length: 200.00
+Evaluation | Avg Reward: -20.00 | Avg Length: 200.00
+
+============================================================
+Обучение завершено!
+============================================================
+============================================================
+Запуск всех экспериментов
+============================================================
+Всего экспериментов: 12
+
+============================================================
+Запуск: dqn no-LSTM env1
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 1 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: dqn no-LSTM env2
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 2 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: dqn no-LSTM env3
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 3 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: dqn LSTM env1
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 1 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Запуск: dqn LSTM env2
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 2 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Запуск: dqn LSTM env3
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method dqn --env 3 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Запуск: ppo no-LSTM env1
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 1 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: ppo no-LSTM env2
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 2 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: ppo no-LSTM env3
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 3 --episodes 500 --wandb --wandb-project RL2
+
+============================================================
+Запуск: ppo LSTM env1
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 1 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Запуск: ppo LSTM env2
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 2 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Запуск: ppo LSTM env3
+============================================================
+Команда: /opt/anaconda3/bin/python train_task1.py --method ppo --env 3 --episodes 500 --wandb --wandb-project RL2 --use-lstm
+
+============================================================
+Результаты:
+============================================================
+✓ dqn no-LSTM env1
+✓ dqn no-LSTM env2
+✓ dqn no-LSTM env3
+✓ dqn LSTM env1
+✓ dqn LSTM env2
+✓ dqn LSTM env3
+✓ ppo no-LSTM env1
+✓ ppo no-LSTM env2
+✓ ppo no-LSTM env3
+✓ ppo LSTM env1
+✓ ppo LSTM env2
+✓ ppo LSTM env3
+
+============================================================
+Все эксперименты завершены!
+============================================================
+nv3
+✓ ppo LSTM env1
+✓ ppo LSTM env2
+✓ ppo LSTM env3
+
+============================================================
+Все эксперименты завершены!
+============================================================
